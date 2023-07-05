@@ -32,7 +32,26 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+
+.main-element {
+  max-width: 80%;
+  background-color: white;
+  border-radius: 16px;
+  margin: 2% auto;
+  padding: 2%;
 }

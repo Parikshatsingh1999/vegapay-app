@@ -1,0 +1,29 @@
+.type-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header-container {
+    text-align: left;
+}
+
+.card-prop {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2% 1%;
+    border: 1px solid grey;
+    border-radius: 16px;
+    margin-right: 3%;
+    min-width: 20%;
+    cursor: pointer;
+}
+
+.card-prop label {
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+.card-prop[data-active="true"] {
+    background: gainsboro;
+}

@@ -1,0 +1,32 @@
+table {
+    width: 100%;
+}
+
+th {
+    color: rgb(9, 9, 116);
+    text-align: left;
+}
+
+td {
+    text-align: left;
+    color: gray;
+}
+
+tr>* {
+    padding: 1%;
+}
+
+.user-show button {
+    outline: none;
+    border: none;
+    padding: 4% 10%;
+    background: cornflowerblue;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+    font-weight: 700;
+}
+
+.table-kit thead th:last-child {
+    width: 15%;
+}

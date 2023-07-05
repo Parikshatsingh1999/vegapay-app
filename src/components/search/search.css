@@ -1,0 +1,27 @@
+.form-elements {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-elements input {
+    font-size: 20px;
+    padding: 4%;
+    border: 1px solid grey;
+    border-radius: 6px;
+}
+
+.form-elements button {
+    color: blue;
+    background-color: white;
+    border: 1px solid blue;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 4% 10%;
+}
+
+.submit-btn {
+    min-width: 20%;
+}
